@@ -1,0 +1,1 @@
+https://[isi-dengan-link-streamlit-cloud].streamlit.app
