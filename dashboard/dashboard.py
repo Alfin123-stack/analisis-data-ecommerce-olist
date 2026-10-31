@@ -65,6 +65,8 @@ def pilih_satuan(nilai):
 main_df = load_data()
 
 # sidebar
+st.sidebar.markdown('### Muhammad Alfin Alfarizi')
+st.sidebar.caption('ID Dicoding: muhammad-alfin')
 st.sidebar.header('Filter')
 tgl_min = main_df['order_purchase_timestamp'].min().date()
 tgl_max = main_df['order_purchase_timestamp'].max().date()
